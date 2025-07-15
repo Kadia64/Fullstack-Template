@@ -1,6 +1,10 @@
 @echo off
 
-cd C:\Users\wesgl\OneDrive\Desktop\Website Automation\Model Context Protocol\Fullstack Template\frontend-app
+FOR /F "tokens=* USEBACKQ" %%F IN (`cd`) DO (
+    SET BATCH_DIR=%%F
+)
+
+cd %BATCH_DIR%\Application\frontend-application
 
 echo Starting Next.js development server on http://localhost:3000
 
