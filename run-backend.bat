@@ -19,6 +19,6 @@ echo Starting Django server on http://localhost:8000
 
 CALL venv\Scripts\activate
 CALL python manage.py migrate
-CALL python manage.py runserver
+CALL python manage.py runserver 0.0.0.0:8000
 
 cd ..
