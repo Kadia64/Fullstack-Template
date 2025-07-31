@@ -11,10 +11,10 @@ claude mcp add playwright npx @playwright/mcp@latest
 ```
 Context7:
 ```bash
-claude mcp add --transport http context7 https://mcp.context7.com/mcp
+claude mcp add --transport sse context7 https://mcp.context7.com/mcp
 ```
 
 Gitmcp:
 ```bash
-claude mcp add --transport http gitmcp <https://gitmcp.io/repo-url>
+claude mcp add --transport sse gitmcp <https://gitmcp.io/repo-url>
 ```
